@@ -1,0 +1,13 @@
+<nav class="nav">
+    <div class="nav-leftpart">
+        <img class="nav-image" alt="logo header" src="/public/favicon.ico" />
+        <a class="nav-title" href="/">Alex Laboratories</a>
+    </div>
+    <div class="nav-rightpart">
+        <div class="nav-links">
+            <a <% if(page === "home") { %> class="active" <% } %> href="?page=home#home">Home</a>
+            <a <% if(page === "about") { %> class="active" <% } %> href="?page=about#about">About</a>
+            <a <% if(page === "contact") { %> class="active" <% } %> href="?page=contact#contact">Contact</a>
+        </div>
+    </div>
+</nav>

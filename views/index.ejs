@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../parts/metas.ejs') %>
+    <title>Alex Laboratories, the future is in us</title>
+</head>
+<body>
+    <%- include('../parts/nav.ejs', {
+        page: page,
+    }) %>
+    <div class="main-container" id="home">
+        <div class="header">
+            <h1>Alex Laboratories</h1>
+            <h2>The future is in us</h2>
+            <img src="/public/favicon_color.ico" alt="header img" class="header-img" />
+        </div>
+        <div class="void"></div>
+    </div>
+    <div class="separator"></div>
+    <div class="container" id="about">
+        <div class="header">
+            <h3>About Us</h3>
+        </div>
+        <div class="content">
+            <p>
+                Alex Laboratories, originally created by Alex Sicovsky, is a company that specializes in the development of software and in science research.
+                We are a team of software developers who are passionate about the development of software and a team of scientists that loves discovering new things.
+            </p>
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="container" id="contact">
+        <div class="header">
+            <h3>Contact Us</h3>
+        </div>
+        <div class="content">
+            <p>
+                We are always looking for new people to join our team. If you are interested in joining our team, please contact us.
+            </p>
+            <p>
+                <a href="mailto:contact@alexlabs.org">Mail Us!</a>
+            </p>
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="void small"></div>
+    <div class="container">
+        <%- include('../parts/footer.ejs') %>
+    </div>
+</body>
+</html>

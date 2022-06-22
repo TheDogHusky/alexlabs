@@ -1,0 +1,24 @@
+{
+  "name": "alexlabs",
+  "description": "Official website for Alex Laboratories (this is a joke guys it's from a private roleplay xd)",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDogHusky/alexlabs.git"
+  },
+  "author": "TheDogHusky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDogHusky/alexlabs/issues"
+  },
+  "homepage": "https://github.com/TheDogHusky/alexlabs#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "simply-logger": "^1.5.38"
+  }
+}
